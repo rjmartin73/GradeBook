@@ -14,14 +14,13 @@ namespace GradeBook
             book.AddGrade(100);
             book.AddGrade(165);
             //book.grades.Add(101); // bad to give direct access to field without going through method
-            book.ComputeStatistics();
+            var stats = book.GetStatistics();
 
-            var book2 = new Book("Bob's Grade Book");
-            book2.AddGrade(100);
-            book2.AddGrade(63.5);
-            book2.AddGrade(45);
-            book2.AddGrade(105);
-            book2.ComputeStatistics();
+            Console.WriteLine($"Statistics for book:");
+            Console.WriteLine($"The lowest grade  is {stats.Low:N1}");
+            Console.WriteLine($"The highest grade  is {stats.High:N1}");
+            Console.WriteLine($"The average grade  is {stats.Average:N2}\n");
+
             
         } 
     }
