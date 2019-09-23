@@ -5874,23 +5874,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rjmar\\.nuget\\packages\\": {},
+    "C:\\Users\\rmartin.DSI\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\rjmar\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\rmartin.DSI\\Documents\\SourceControl\\GradeBook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "c:\\Users\\rjmar\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-      "packagesPath": "C:\\Users\\rjmar\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\rjmar\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "projectPath": "C:\\Users\\rmartin.DSI\\Documents\\SourceControl\\GradeBook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "packagesPath": "C:\\Users\\rmartin.DSI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rmartin.DSI\\Documents\\SourceControl\\GradeBook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\rjmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rmartin.DSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5898,13 +5898,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://code.eccoviasolutions.com:6969/nuget": {},
+        "https://eccovia.pkgs.visualstudio.com/_packaging/EccoviaNuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\rjmar\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "c:\\Users\\rjmar\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "C:\\Users\\rmartin.DSI\\Documents\\SourceControl\\GradeBook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\rmartin.DSI\\Documents\\SourceControl\\GradeBook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
